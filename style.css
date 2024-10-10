@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('home-img.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 150px;
+    color: #333;
+}
+
+h1 {
+        background: linear-gradient(90deg, rgb(241, 234, 234), rgb(121, 115, 104), rgb(112, 112, 104), rgb(242, 243, 239), rgb(107, 107, 117), rgb(243, 238, 247), rgb(58, 56, 58)); /* Gradiente de cores */
+        font-size: 2.5em; /* Ajusta o tamanho do título */
+        text-align: center; /* Centraliza o título */
+        margin-bottom: 20px; /* Espaçamento inferior */
+    }
+    
+
+h2 {
+    background: linear-gradient(90deg, rgb(241, 234, 234), rgb(121, 115, 104), rgb(97, 97, 89), rgb(242, 243, 239), rgb(107, 107, 117), rgb(243, 238, 247), rgb(58, 56, 58)); /* Gradiente de cores */
+        font-size: 2.5em; /* Ajusta o tamanho do título */
+        text-align: center; /* Centraliza o título */
+        margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+form {
+    background: rgba(182, 181, 187, 0.9); 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="quantidade"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #0a0c0e;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #090a0c;
+}
+
+table {
+    width: 60%; /* Diminui a largura da tabela */
+    border-collapse: collapse;
+    margin: 50px auto; /* Centraliza a tabela */
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding:15px; /* Diminui o padding para compactar a tabela */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: rgba(12, 14, 17, 0.8); /* Fundo semitransparente para o cabeçalho */
+    color: white;
+}
+
+tr:hover {
+    background-color: rgba(241, 241, 241, 0.7); /* Efeito de hover com transparência */
+}
+
+a {
+    color: #0c0d0e;
+   
+}
